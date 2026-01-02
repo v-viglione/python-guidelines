@@ -27,11 +27,11 @@ Nell’esempio in figura, il file .py da lanciare è “Batch_runner_v2.py” e 
 Per creare un virtual environment con VS code:
 1.	aprire il terminale nella cartella dove lo si vuole creare
 2.	eseguire 
-```r
+```py
 python -m venv nome_venv
 ```
 sostituendo a nome_venv il nome che si preferisce dare alla cartella (normalmente si usa venv)
-3.	attivare l’ambiente con .\nome_venv\Scripts\activate
+3.	attivare l’ambiente con `.\nome_venv\Scripts\activate`
 4.	con l’ambiente attivo, per installare le librerie eseguire pip install nome_lib
 Si possono anche scrivere le librerie necessarie per un progetto su un file requirements.txt in modo da installarle tutte insieme eseguendo pip install -r requirements.txt
 Quest’ultima opzione è particolarmente utile quando si usa il progetto implementato da un altro utente e si deve creare il proprio virtual environment per quel progetto.
